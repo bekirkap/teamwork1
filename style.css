@@ -1,20 +1,26 @@
 
-*{box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*   {  box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        /* display: inline-block; */
 
 }
 body{
     background-image: url(./background_image.jpg);
-    padding: 10px 55px;
+    padding: 10px 55px 5px 55px;
+    overflow: hidden;
 }
 #container{
     background-color: rgba(0, 0, 0, 0.212);
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid rgb(42, 156, 122);
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px; */
     
-
+   
     
 }
 html, body{
@@ -31,7 +37,7 @@ html, body{
     color: red;
 }
 #container2{
-    /* border: 1px solid red; */
+    border: 1px solid rgb(40, 1, 218);
     margin-top: 15px;
     font-size: larger;
 }
@@ -46,22 +52,50 @@ html, body{
     width: 500px;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 0;
+    /* height: 95vh; */
     color: white;
+    
+
     /* padding-top: 15px; */
 }
 label{
     
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-input{
+.maininput{
  
     margin-top: 10px;
     width: 100%;
     height: 50px;
 }
-#formdiv{
+.formdiv{
     width: 90%;
     border: 1px solid red;
     margin: auto;
-padding-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select{
+    width: 95%;
+    height: 25px;
+}
+textarea{
+    height: 50px;
+    width: 90%;
+}
+#submitbutton{
+    margin: auto;
+    background-color: red;
+    /* display: flex; */
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    display: grid;
+    
+    
 }
