@@ -1,46 +1,38 @@
 
 *   {  box-sizing: border-box;
-        /* margin: 0; */
-        /* padding: 0; */
+        margin: 0;
+        padding: 0;
     
 
 }
 html{
-    border: 3px solid saddlebrown;
-    height: 100%;
-    padding: 1px;
+    /* border: 3px solid saddlebrown; */
+    /* height: 100%; */
+    /* padding: 1px; */
+    /* overflow: hidden; */
 }
+
 
 body{
 
     background-image: url(./background_image.jpg);
-    /* padding: 10px 55px 0px 55px; */
-    /* overflow: hidden; */
-    /* border: 2px solid rgb(181, 249, 9); */
-    /* margin: 0; */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* background-color: aqua; */
-    /* min-height: 100vh; */
+    overflow: hidden;
+    /* border: 2px solid rgba(181, 249, 9, 0); */
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto !important;
     
 }
 #container{
-    background-color: rgba(0, 0, 0, 0.212);
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgb(42, 156, 122);
-    /* background-image: url(/background_image.jpg); */
-
-    /* margin-bottom: 10px; */
-    /* padding-bottom: 0%; */
-   
-    
-}
-html, body{
-    /* min-height: 100%; */
+    background-color: rgba(65, 61, 61, 0.233);
+    margin: auto;
+    margin-top: 3vH;
+    margin-bottom: 3vH;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    height: 94vh;
+    width: 92vw;
     /* height: 100%; */
-    /* width: 100%; */
-    /* internetten buldum */
 }
 .baslik{
     color: white;   
@@ -51,9 +43,9 @@ html, body{
     color: red;
 }
 #container2{
-    border: 1px solid rgb(40, 1, 218);
-    /* margin-top: 15px; */
+    /* border: 1px solid rgb(40, 1, 218); */
     font-size: larger;
+    height: 8%;
 }
 #altbaslik{
     color: white;
@@ -61,65 +53,90 @@ html, body{
     text-align: center;
 }
 #container3{
-    border: 1px solid rgb(228, 27, 178);
+    /* border: 1px solid rgb(228, 27, 178); */
     background-color: rgba(0, 0, 0, 0.76);
-    width: 400px;
-    margin: auto;
-    /* margin-top: 15px; */
-    /* margin-bottom: 5px; */
-    height: 100%;
     color: white;
-margin-bottom: 3px;
-    
-
-    /* padding-top: 15px; */
-}
-label{
-
-    
+    width: 25%;
+    margin: auto;
+    height: 92%;
 }
 .maininput{
- 
-    /* margin-top: 10px; */
     width: 100%;
-    height: 50px;
+    height: 70%;
+    margin: auto;
+ 
 }
 .formdiv{
-    width: 90%;
-    border: 1px solid red;
+    width: 85%;
+    height: 10%;
+    /* border: 1px solid red; */
     margin: auto;
-    /* margin-top: 2px; */
-    margin-bottom: 10px;
-    /* padding-top: 10px; */
+    /* margin-bottom: 6px; */
     font-size: 14px;
-    /* height: 100%; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin-top: 3%;
 }
 select{
     width: 95%;
-    height: 25px;
 }
 textarea{
-    height: 10px    ;
     width: 90%;
 }
 #submitbutton{
     margin: auto;
     background-color: red;
-    /* display: flex; */
-    height: 35px;
-    width: 100px;
+
     text-align: center;
     border-radius: 50px;
     color: white;
     border: none;
     display: grid;
+    width: 30%;
+    height: 100%;
     
 }
-#age{
-    /* background-color: aqua; */
-    /* height: 100%; */
+#contenttype{
+    /* border: 2px solid orange; */
+    width: 80%;
+    margin: auto;
+    margin-left: 7.5%;
+    height: 7.5%;
+    margin-top: 3%;
 
+}
+#content{
+    height: 65%;
+    width: 100%;
+}
+.formdiv2{
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 7.5%;
+    margin-top: 5%;
+
+
+}
+.label1{
+    margin-bottom: 20px;
+    
+}
+.buttondiv{
+    /* border: 1px solid red; */
+    height: 5%;
+}
+.feedbackdiv{
+    margin-left: 7.5%;
+    margin-top: 5%;
+    /* border: 1px solid blue; */
+    height: 20%;
+}
+#feedback{
+    height: 60%;
+    resize: none;
+}
+/* #feecbacklabel{
+    margin-bottom: 3%;
+} */
+.options{
+    padding:5px 0;
 
 }
